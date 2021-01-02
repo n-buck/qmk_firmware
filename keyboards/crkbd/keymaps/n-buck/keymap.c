@@ -52,7 +52,7 @@ enum macro_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT_split_3x6_3( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_GESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,  KC_BSPC,\
+      KC_ESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,  KC_BSPC,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LGUI,    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                         KC_H,    KC_J,    KC_K,    KC_L, KC_SCLN, KC_QUOT,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_LCTL,  KC_F5,   KC_F6,   KC_F7,   KC_F8,  KC_PGDOWN,                    KC_4,    KC_5,    KC_6,    KC_EQUAL, KC_MINUS, KC_BSLASH,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-    KC_LSFT,  KC_F9,   KC_F10,  KC_F11,  KC_F12, KC_INSERT,                    KC_1,    KC_2,    KC_3,    KC_TILDE, KC_PSCREEN, KC_SLASH,\
+    KC_LSFT,  KC_F9,   KC_F10,  KC_F11,  KC_F12, KC_INSERT,                    KC_1,    KC_2,    KC_3,    KC_GRAVE, KC_PSCREEN, KC_SLASH,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI,   LOWER,  KC_SPC,     KC_TAB,   KC_0, KC_DOT \
                                       //`--------------------------'  `--------------------------'
